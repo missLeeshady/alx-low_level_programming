@@ -6,11 +6,11 @@
  */
 int main(void)
 /**
- * return value of main is zero
+ *return value of main is zero
  *
- * description - zero errors were returned
+ *description - zero errors were returned
  *
- * and there are no arguments taken by main 
+ *no arguments taken by main 
  */
 {
 	printf("with proper grammar, but the outcome is a piece of art,\n");
