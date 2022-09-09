@@ -6,9 +6,12 @@
  */
 int main(void)
 /**
- * description of 'main (void)'
+ * main - is an entry point
  *
- *  the return value is zero hence, void 
+ *  the return value is zero
+ *  in this code 
+ *  hence void,main
+ *
  */
 {
 	puts("\"Programming is like building a multilingual puzzle");
