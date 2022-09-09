@@ -10,7 +10,7 @@ int main(void)
  *
  *description - zero errors were returned
  *
- *no arguments taken by main 
+ *no arguments taken by main
  */
 {
 	printf("with proper grammar, but the outcome is a piece of art,\n");
