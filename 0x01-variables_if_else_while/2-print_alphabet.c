@@ -2,8 +2,17 @@
 
 /**
 * main - entry point
+*
+* Return: always 0 (success)
 */
-int main(void);
+
+int main()
 {
-	
+	char letter;
+
+	letter = 'a';
+	for (letter = 'a'; letter <= 'z'; letter++)
+		putchar(letter);
+
+	return (0);		
 }
