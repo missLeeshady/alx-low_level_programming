@@ -7,7 +7,7 @@ int main()
 {
 	char letter;
 
-	for (letter = 'a'; (letter != 'e') & (letter != 'q') & (letter <= 'z'); letter++)
+	for (letter = 'a'; (letter <= 'z') & (letter != 'q'); letter++)
 		putchar(letter);
 	putchar('\n');
 
