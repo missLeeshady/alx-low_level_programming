@@ -1,8 +1,7 @@
 #include "main.h"
 
-/* main - entry point of program */
-/* return value: void */
-
+/* Main - entry point of program */
+/* Return value: void */
 int main(void)
 {
 	_putchar('_');
@@ -14,6 +13,6 @@ int main(void)
 	_putchar('a');
 	_putchar('r');
 	_putchar('\n');
-	
+
 	return (0);
 }
