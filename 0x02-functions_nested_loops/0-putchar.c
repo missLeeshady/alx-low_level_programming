@@ -1,6 +1,5 @@
 #include "main.h"
-
-/* Main - entry point of program */
+/* main - entry point */
 /* Return value: void */
 int main(void)
 {
