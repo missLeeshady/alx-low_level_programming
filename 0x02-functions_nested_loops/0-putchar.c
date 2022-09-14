@@ -1,6 +1,10 @@
 #include "main.h"
-/* main - entry point */
-/* Return value: void */
+
+/**
+* main - entry point
+* Return: always void, successful.
+*/
+
 int main(void)
 {
 	_putchar('_');
