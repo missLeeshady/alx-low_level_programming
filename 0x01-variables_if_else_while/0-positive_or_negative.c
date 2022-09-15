@@ -1,9 +1,13 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
+/**
+* main - entry point of program
+*
+* Return: always void
+*
+* main: entry point and exit
+*/
 int main(void)
 {
 	int n;
@@ -15,8 +19,9 @@ int main(void)
 	{
 		printf(" is zero\n");
 	}
-	else 
-	{	if(n < 0)
+	else
+	{
+		if (n < 0)
 		{
 		printf(" is negative\n");
 		}
@@ -24,6 +29,6 @@ int main(void)
 		{
 		printf(" is positive\n");
 		}
-	}	
+	}
 	return (0);
 }
