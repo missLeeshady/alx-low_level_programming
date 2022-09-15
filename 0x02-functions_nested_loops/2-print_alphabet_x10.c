@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
-* Main - print all alphabets 10 times
+* print_alphabet_x10 - print all alphabets 10 times
 *
-* Return value: always void.
+* Return value: always void
 *
-* function print_alphabet_x10: prints all alphabets in
+* print_alphabet_x10: prints all alphabets in
 * lowercase, ten times.
 */
 void print_alphabet_x10(void)
