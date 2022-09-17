@@ -1,12 +1,14 @@
 #include <stdio.h>
 
-/* main - entry point */
-/* return: always  (success) */
-
-int main()
+/**
+* main - the entry point
+* void: return type
+* Return: always 0
+*/
+int main(void)
 {
 	char letter;
-	
+
 	for (letter = 'a'; letter <= 'z'; letter++)
 		putchar(letter);
 	/* print uppercase */
