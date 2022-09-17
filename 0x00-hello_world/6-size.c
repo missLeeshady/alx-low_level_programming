@@ -2,8 +2,8 @@
 
 /**
 * main - entry point of program
-*
-* return: always void, 0 (success)
+* void: the return value
+* Return: always void, 0 (success)
 */
 
 int main(void)
