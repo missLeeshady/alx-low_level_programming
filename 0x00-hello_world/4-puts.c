@@ -2,8 +2,8 @@
 
 /**
  * main - is the starting point of the program
- *
- * return value of main(): shows how the program is exited
+ * void: the return value
+ * Return: always 0
  */
 int main(void)
 {
