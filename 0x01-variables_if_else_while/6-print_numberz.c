@@ -1,8 +1,11 @@
 #include <stdio.h>
 
-/* main - entry point*/
-/* return: always 0 (success) */
-int main()
+/**
+* main - the entry point
+* void: return type
+* Return: always 0 (success)
+*/
+int main(void)
 {
 	int number;
 
