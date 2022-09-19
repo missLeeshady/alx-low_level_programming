@@ -2,7 +2,7 @@
 
 /**
 * _strlen - returns the length of a string
-* @char: characters in string to be returned
+* @s: string to be printed
 * Return: the number of bytes in the string
 */
 int _strlen(char *s)
