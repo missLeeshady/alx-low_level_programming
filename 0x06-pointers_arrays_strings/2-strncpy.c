@@ -5,7 +5,7 @@
 *
 * @dest: it points the buffer
 * @src: points at the string to be copied
-*
+* @n: size of string in bytes
 * Return: dest to be returned
 */
 char *_strncpy(char *dest, char *src, int n)
