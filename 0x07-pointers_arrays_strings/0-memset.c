@@ -5,15 +5,17 @@
 *
 * @s: memory area pointer
 * @b: constant byte
+* @n: first bytes of memory area
 *
 * Return: a pointer to the memory area s
 */
 char *_memset(char *s, char b, unsigned int n)
 {
-	char* p = s;
+	char *p = s;
+
 	while (n--)
 	{
-		*p++ = (char )b;
+		*p++ = (char)b;
 	}
 	return (s);
 }
