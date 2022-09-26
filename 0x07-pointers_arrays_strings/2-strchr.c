@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stddef.het number
+#include <stddef.h>
 
 /**
 * _strchr - locates a character in a string
