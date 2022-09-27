@@ -2,17 +2,24 @@
 
 /**
 * print_chessboard - prints the chessboard
-* @char: array type
 * @a: pointer of the array
 * Return: always void.
 */
 void print_chessboard(char (*a)[8])
 {
 	int i, j;
-	for (i = 0; i < 2; i++)
+
+	i = 0;
+	while (i < 8)
 	{
-		for (j = 0; j < 3; j++)
+		j = 0;
+		while (j < 8)
+	{
+		_putchar(a[i][j]);
+		j++;
 	}
 
-	_putchar(char(*a)[8])
+	_putchar('\n');
+	i++;
+	}
 }
