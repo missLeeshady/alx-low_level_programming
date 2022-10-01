@@ -5,7 +5,7 @@
 *
 *@c: check if it is lowercase character
 *
-* Return value: always return an integer, successful
+* Return: always return an integer, successful
 */
 
 int _islower(int c)
@@ -16,7 +16,7 @@ int _islower(int c)
 	}
 
 	else
-	{		
-		return(0);
+	{
+		return (0);
 	}
 }

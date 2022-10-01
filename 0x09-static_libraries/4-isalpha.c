@@ -1,15 +1,10 @@
 #include "main.h"
 
 /**
-* _isalpha - it checks for alphabetic character
-*
-* @c: check if it is an alphabetic character
-*
-* Return value: always integer
-*
-* _isalpha:  checks for alphabetic character
+* _isalpha - checks for alphabetic character
+* @c: an alphabetic character
+* Return: always integer
 */
-
 int _isalpha(int c)
 {
 	if (c >= 65 && c <= 122)
