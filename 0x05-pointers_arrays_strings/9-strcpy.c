@@ -1,7 +1,7 @@
-#include "main.h" 
+#include "main.h"
 
 /**
- * _strcpy - 
+ * _strcpy - copies the string pointed to
  * @dest: destination of pointer
  * @src: surce of string
  * Return: Pointer to `dest`
