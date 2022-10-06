@@ -1,12 +1,13 @@
 #include "main.h"
 
 /**
-* main function - entry point
+* _isalpha - it checks for alphabetic character
 *
-* return type: int
+* @c: an alphabetic character
 *
-* function _isalpha:  checks for alphabetic character.
+* Return: always integer
 */
+
 int _isalpha(int c)
 {
 	if (c >= 65 && c <= 122)
