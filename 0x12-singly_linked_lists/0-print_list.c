@@ -3,8 +3,7 @@
 
 /**
 * print_list - prints all elements of a list
-* list_t: singly linked list
-* *h: head of list
+* @h: head of node
 * Return: the number of nodes
 */
 
