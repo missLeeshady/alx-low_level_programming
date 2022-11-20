@@ -1,7 +1,5 @@
 #include<stdio.h>
-#include<string.h>
 #include<unistd.h>
-#include<fcntl.h>
 
 /**
 * main - the entry point
@@ -11,12 +9,7 @@
 
 int main(void)
 {
-	int fd[2];
-
-	fd[2] = open("file.txt", O_RDWR);
-
-	write (2, buf2 , 77);
-	 
+	write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19
+\n", 77);
 	return (1);
-
 }
